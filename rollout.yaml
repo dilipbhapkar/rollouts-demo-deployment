@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
         - name: rollouts-demo
-          image: "alexmt/rollouts-demo:latest"
+          #image: "alexmt/rollouts-demo:latest"
+          image: cryptocoinmahi/spinnakercd:dev
           ports:
             - name: http
               containerPort: 80

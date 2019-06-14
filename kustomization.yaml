@@ -7,6 +7,6 @@ resources:
 - ingress.yaml
 - preview-service.yaml
 
-image:
+images:
 - name: "alexmt/rollouts-demo"
   newTag: green
